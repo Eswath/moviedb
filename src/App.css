@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+.imgs{
+  opacity: .2;
+  background-position: center center;
+  border-radius: 25px; 
+}
+.imgpost
+{
+  float : left;
+  border-radius: 25px;
+  max-width: 30%;
+  max-height: 30%;
+}
+.list{
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  overflow: hidden;;
+  padding: 20px;
+  
+}
+
+div.card{
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(100, 0, 0, 0.2), 0 6px 20px 0 rgba(100, 0, 0, 0.19);
+}
+.divcard{
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(100, 0, 0, 0.2), 0 6px 20px 0 rgba(100, 0, 0, 0.19);
+}
+
+.rcorners {
+    border-radius: 25px;
+    background: url(https://flashbak.com/wp-content/uploads/2014/07/collage-copy.jpg);
+    background-size:     cover;  
+    background-repeat:   no-repeat;
+    background-position: center center;
+    padding: 310px; 
+    max-width: 100%;
+    max-height: 100%;    
+}
+
+.More{
+  background-color:white;
+}
+
+.CardText{
+  color: black;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+div.imagefooter{
+  border-radius: 25px;  
+  max-width: 40%;
+  max-height: 40%;
+}
+.imagefooters{
+  max-width: 40%;
+  max-height: 40%;
+
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 2em;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

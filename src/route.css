@@ -1,0 +1,41 @@
+.rcorners {
+    border-radius: 25px;
+    background: url(https://flashbak.com/wp-content/uploads/2014/07/collage-copy.jpg);
+    background-size:     cover;  
+    background-repeat:   no-repeat;
+    background-position: center center;
+    padding: 310px; 
+    max-width: 100%;
+    max-height: 100%;    
+}
+
+.imgs{
+  opacity: .3;
+  background-position: center center;
+  background-size: contain,cover;
+  border-radius: 25px; 
+}
+
+.CardText{
+  color: black;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+.list{
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+  padding: 20px;
+  
+}
+
+.imgpost
+{
+  float : left;
+  border-radius: 25px;
+  max-width: 30%;
+  max-height: 30%;
+}
